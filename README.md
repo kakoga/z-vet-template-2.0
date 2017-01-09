@@ -1,2 +1,2 @@
 # PetDesk Cat Blueprint
-![Plate cover](https://github.com/kakoga/z-vet-template1.0/blob/master/shield.png)
+![Plate cover](https://github.com/kakoga/z-vet-template-2.0/blob/master/shield.png
