@@ -20,7 +20,7 @@
                 <sort>5</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>#ffffff</value>
+                <value>#fffef2</value>
             </color>
             <text name="border-radius-base" name_friendly="Default Border Radius">
                 <category>1</category>
@@ -44,7 +44,7 @@
                 <sort>1</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>#3b393b</value>
+                <value>#33715a</value>
             </color>
             <text name="nav-font-size" name_friendly="Navigation Font Size">
                 <category>4</category>
@@ -60,7 +60,7 @@
                 <sort>1</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>#6699cc</value>
+                <value>#0b243a</value>
             </color>
             <color name="link-hover-color" name_friendly="Link Hover Color">
                 <category>3</category>
@@ -68,7 +68,7 @@
                 <sort>1</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>#5588bb</value>
+                <value>#35526c</value>
             </color>
             <dropdown name="link-hover-decoration" name_friendly="Link Hover Decoration">
                 <category>3</category>
@@ -97,7 +97,7 @@
                 <sort>1</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>#111111</value>
+                <value>#2b2b2b</value>
             </color>
             <text name="font-size-base" name_friendly="Default Font Size">
                 <category>2</category>
@@ -197,7 +197,7 @@
                 <sort>1</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>#6699cc</value>
+                <value>#0b243a</value>
             </color>
             <color name="btn-hover-font-color" name_friendly="Button Hover Font Color">
                 <category>6</category>
@@ -213,7 +213,7 @@
                 <sort>20</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>#082470</value>
+                <value>#203d57</value>
             </color>
 
             <color name="brand-primary" name_friendly="Brand Color">
@@ -222,7 +222,7 @@
                 <sort>3</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>#5FCFA7</value>
+                <value>#0b243a</value>
                 <options>
                     <option description="No transition" value="0ms" />
                     <option description="50ms" value="50ms" />
@@ -238,15 +238,15 @@
                 <sort>5</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>#e74c3c</value>
+                <value>#622b13</value>
             </color>
-            <color name="theme-gray-color" name_friendly="Theme Gray Color">
+            <color name="theme-gray-color" name_friendly="Theme Green Color">
                 <category>1</category>
                 <description>Base color for all the basic type on the website.</description>
                 <sort>5</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>#181718</value>
+                <value>#33715a</value>
             </color>
 
             <image name="body-bg-image" name_friendly="Body Background Image">

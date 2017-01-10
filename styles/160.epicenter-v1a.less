@@ -29,7 +29,7 @@ body {
 }
 
 .text-muted {
-	color: @gray-light;
+	color: @gray;
 }
 
 .text-primary {
@@ -123,7 +123,7 @@ img {
 }
 
 .bg-light-gray {
-	background-color: @gray-lighter;
+	background-color: @gray-lightest;
 }
 
 .bg-darkest-gray {
@@ -555,7 +555,7 @@ section#portfolio {
 		position: absolute;
 		content: "";
 		width: 2px;
-		background-color: #f1f1f1;
+		background-color: @gray-lightest;
 		left: 40px;
 		margin-left: -1.5px;
 	}
@@ -600,7 +600,7 @@ section#portfolio {
 			background-color: @theme-primary;
 			color: white;
 			border-radius: 100%;
-			border: 7px solid #f1f1f1;
+			border: 7px solid @gray-lightest;
 			text-align: center;
 			h4 {
 				font-size: 10px;
@@ -766,7 +766,7 @@ aside.clients {
 // Contact Section
 
 section#contact {
-	background-color: @gray-darker;
+	background-color: @gray-base;
 	background-position: center;
 	background-repeat: no-repeat;
 	.container {background:none;}
