@@ -302,16 +302,16 @@ img {
 
 @media(min-width: @sm) {
 	.navbar-custom {
-		background-color: transparent;
+		background-color: @navbar-default-bg !important;
 		padding: 25px 0;
-		-webkit-transition: padding 0.3s;
+		/*-webkit-transition: padding 0.3s;
 		-moz-transition: padding 0.3s;
-		transition: padding 0.3s;
+		transition: padding 0.3s;*/
 		border: none;
-		&.always-dark{
+		/*&.always-dark{
 			background-color: @navbar-default-bg !important;
 
-		}
+		}*/
 
 		.navbar-brand.site-name {
 			font-size: 2em;
@@ -332,7 +332,7 @@ img {
 
 // Navbar Change on Scroll
 
-@media(min-width: @sm) {
+/*@media(min-width: @sm) {
 	.navbar-custom.affix {
 		background-color: @navbar-default-bg;
 		padding: 10px 0;
@@ -340,7 +340,7 @@ img {
 			font-size: 1.5em;
 		}
 	}
-}
+}*/
 
 header {
 	background-image: url( @homepage-header-image );
@@ -378,7 +378,6 @@ header {
 				line-height: 42px;
 
 			}
-
 
 		}
 	}
