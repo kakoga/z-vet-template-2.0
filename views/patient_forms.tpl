@@ -1,17 +1,17 @@
-<div class="container">
+<div class="">
 	<div id="patient-forms">
-		{{ include inner-page-hero }}
 		<div class="container">
 			<div class="body-content" >
+							<h1>{{ page.page_title }}</h1>
 				<div class="row">
 					<div class="mobile">
 						<div class="col-md-3" >
 							{{ include sectionlinks }}
 						</div>
 					</div>
-					<div class="col-md-9" >
+					<div class="col-md-8" >
 						<div class="title-border">
-							<h1>{{ page.page_title }}</h1>
+							<img class="main-image" src="{{ page.main_image.getImage(800,400,crop) }}" height="400" />
 						</div>
 						<div class="body-text" >
 							<h3>{{ page.body_text }}</h3>
@@ -27,8 +27,6 @@
 								{{ of.form_description }}
 								<a href="{{ of.form_pdf.getMediaUrl() }}" target="blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Download Form</a>
 							</div>
-							<br/>
-							<br/>
 						</blockquote>
 						{{ end-each }}
 						{{ end-if }}
@@ -158,7 +156,7 @@
 						{{ end-if }}
 					</div>
 					<div class="desktop">
-						<div class="col-md-3" >
+						<div class="col-md-4" >
 							{{ include sectionlinks }}
 							{{ include inner-page-sidebar }}
 						</div>
