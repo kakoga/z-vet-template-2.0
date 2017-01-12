@@ -15,8 +15,12 @@
     <!-- Modal content-->
     <div class="modal-content">
 		{{ clippings.pop_up_content }}
+			<span class="clear-fix"></span>
+			<hr/>
+			<div class="text-center">
+				<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+			</div>
     </div>
-
   </div>
 </div>
 {{ if {clippings.pop_up_content} != '' && {@popup} != 1 }}
