@@ -1,11 +1,15 @@
 <div id="contact-us">
-	{{ include inner-page-hero }}
 	<div class="container">
 		<div class="body-content" >
+			<h1>{{ page.page_title }}</h1>
 			<div class="row">
-				<div class="col-md-12">
-					<h1>{{ page.page_title }}</h1>
+				<div class="col-md-8">
+					<div class="title-border">
+						<img class="main-image" src="{{ page.main_image.getImage(800,400,crop) }}" />
+					</div>
 				</div>
+			</div>
+			<div class="row">
 				<div class="col-md-4" >
 					<p>{{ page.address_one }}</p>
 					<p>{{ page.address_two }}</p>

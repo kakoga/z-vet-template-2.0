@@ -1,14 +1,16 @@
 <div id="meet-the-team">
-	{{ include inner-page-hero }}
 	<div class="container">
 		<div class="body-content" >
 			<div class="row">
 				<div class="mobile">
-					<div class="col-md-3" >
+					<div class="col-md-4" >
 						{{ include sectionlinks }}
 					</div>
 				</div>
-				<div class="col-md-9" >
+				<div class="col-md-8" >
+					<div class="title-border">
+						<img class="main-image" src="{{ page.main_image.getImage(800,400,crop) }}" />
+					</div>
 					<h1>{{ page.page_title }}</h1>
 					{{ page.body_text }}
 					{{ each employee_category as ec sort by ec.sort_order }}
@@ -30,7 +32,7 @@
 					{{ end-each }}
 				</div>
 				<div class="desktop">
-					<div class="col-md-3" >
+					<div class="col-md-4" >
 						{{ include sectionlinks }}
 						{{ include inner-page-sidebar }}
 					</div>

@@ -20,6 +20,13 @@
 		hr {display:none;}
 
 	}
+	@media (max-width: 1024px) {
+		padding:8vh 0;
+		background-size:cover;
+		background-attachment:inherit;
+		hr {display:none;}
+
+	}
 	h2 {
 		color:#fff;
 		text-shadow:1px 1px 2px rgba(0,0,0,0.5);
@@ -35,7 +42,6 @@
 		border:none;
 		border-top:5px solid @theme-primary;
 	}
-
 }
 
 hr {
@@ -45,7 +51,7 @@ hr {
 a:hover {text-decoration:none;}
 
 .modal-content {
-	padding: @default-spacing;
+	padding:@default-spacing;
 	&:after {
 		clear: both;
 		display: table;
@@ -186,11 +192,6 @@ a:hover {text-decoration:none;}
 }
 
 
-#promotions {
-	.promo-detail {
-		margin-bottom: 36px;
-	}
-}
 .dropdown-menu .sub-menu {
 	left: 100%;
 	position: absolute;
@@ -245,6 +246,14 @@ a:hover {text-decoration:none;}
 .navbar-custom .nav li:hover, .navbar-custom .nav li:focus {
 	color: @gray-light;
 }
+
+
+#promotions {
+	.promo-detail {
+		margin-bottom: 36px;
+	}
+}
+
 #office-tour {
 	#ytplayer {
 		position: static;
@@ -263,6 +272,11 @@ a:hover {text-decoration:none;}
 	.days {
 		margin-right: 15px;
 	}
+
+	.title-border {
+		margin-bottom: 15px;
+	}
+
 	iframe {
 		width: 100% !important;
 		@media(max-width: @sm) {
@@ -303,6 +317,7 @@ a:hover {text-decoration:none;}
 		}
 	}
 }
+
 .form-rows {
 	* {margin-bottom:3px;}
 }
