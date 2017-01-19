@@ -10,9 +10,11 @@
 						</div>
 					</div>
 					<div class="col-md-8">
+						{{ if {page.main_image} }}
 						<div class="title-border">
 							<img class="main-image" src="{{ page.main_image.getImage(800,400,crop) }}" />
 						</div>
+						{{ end-if }}
 						{{ page.body_text }}
 						{{ each promo as deal sort by deal.sort_order }}
 						<div class="promo-detail">

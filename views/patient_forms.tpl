@@ -10,11 +10,13 @@
 						</div>
 					</div>
 					<div class="col-md-8" >
+						{{ if {page.main_image} }}
 						<div class="title-border">
 							<img class="main-image" src="{{ page.main_image.getImage(800,400,crop) }}" />
 						</div>
+						{{ end-if }}
 						<div class="body-text" >
-							<h3>{{ page.body_text }}</h3>
+							<p>{{ page.body_text }}</p>
 						</div>
 						<p class="form-rows">{{ page.download_form_note}}</p>
 

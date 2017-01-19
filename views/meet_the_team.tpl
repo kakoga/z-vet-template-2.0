@@ -9,9 +9,11 @@
 						</div>
 					</div>
 					<div class="col-md-8" >
+						{{ if {page.main_image} }}
 						<div class="title-border">
 							<img class="main-image" src="{{ page.main_image.getImage(800,400,crop) }}" />
 						</div>
+						{{ end-if }}
 						<h1>{{ page.page_title }}</h1>
 						{{ page.body_text }}
 						{{ each employee_category as ec sort by ec.sort_order }}

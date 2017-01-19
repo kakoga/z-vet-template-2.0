@@ -5,9 +5,11 @@
 				<h1>{{ page.page_title }}</h1>
 				<div class="row">
 					<div class="col-md-8">
+						{{ if {page.main_image} }}
 						<div class="title-border">
 							<img class="main-image" src="{{ page.main_image.getImage(800,400,crop) }}" />
 						</div>
+						{{ end-if }}
 					</div>
 				</div>
 				<div class="row">
