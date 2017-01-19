@@ -1,5 +1,5 @@
-<div class="">
-	<div id="patient-forms">
+<div id="patient-forms">
+	<div class="body-container">
 		<div class="container">
 			<div class="body-content" >
 							<h1>{{ page.page_title }}</h1>

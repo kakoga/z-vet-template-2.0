@@ -32,5 +32,5 @@
 {{ @popup = 1 }}
 {{ end-if }}
 <script>
-	$('.header-spacing').css('margin-bottom', $('#mainNav').outerHeight() );
+	$('.header-spacing').css('margin-bottom', $('#mainNav').innerHeight() );
 </script>
