@@ -156,7 +156,7 @@
                 <sort>6</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>18px</value>
+                <value>16px</value>
             </text>
             <color name="paragraph-font-color" name_friendly="Paragraph Font Color">
                 <category>2</category>
