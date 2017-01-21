@@ -13,6 +13,9 @@ body {
 	@media (min-width: @container-large-desktop + @default-spacing ) {
 		width: @container-large-desktop;
 	}
+	&.no-padding {
+		padding:0;
+	}
 }
 .row {
 	margin-left:-@default-spacing/2;
@@ -149,9 +152,14 @@ img {
 }
 #mainNav {
 	margin-bottom:0;
+	padding:5px 30px;
+	min-height:0;
+	background-color:lighten(@gray-lightest,0%);
 	.container {background:none;}
 	#request {
-		margin: 8px 0;
+		margin: 0;
+		font-size:12px;
+		padding:5px;
 		@media (max-width: 768px) {
 			position:fixed;
 			bottom:0;
@@ -161,6 +169,7 @@ img {
 			padding:20px 0;
 			font-size:20px;
 			transition:all ease 250ms;
+			z-index:90;
 		}
 
 	}
@@ -183,9 +192,19 @@ img {
 		}
 		h3 {
 			margin:2px 0;
+			font-size:18px;
+			line-height:1em;
 			a {
 				color:@brand-primary;
 			}
+		}
+	}
+	ul.header-social {
+		margin-bottom:0;
+		li a {
+		&:hover {
+			background-color: darken(@link-color, 10%);
+		}
 		}
 	}
 }
@@ -197,7 +216,12 @@ img {
 	border-color: transparent;
 	border-radius: 0;
 	.navbar-brand {
+		float:none;
+		display:block;
+		text-align:center;
+		padding:0;
 		color: @theme-primary;
+		margin-bottom:10px;
 		.heading-font;
 		&:hover,
 			&:focus,
@@ -220,7 +244,6 @@ img {
 				}
 			}
 		}
-
 	}
 	.navbar-collapse {
 		border-color: fade(white, 2%);
@@ -252,64 +275,40 @@ img {
 				color: @navbar-default-link-color;
 				font-size: @nav-font-size;
 				margin: 0px;
+				border-left:solid 1px darken(@navbar-default-bg,15%);
 				&:hover,
 					&:focus {
 					color: @theme-primary;
 					outline: none;
 				}
 			}
+			&:first-child a {
+				border-left:none;
+			}
 		}
 	}
 	.navbar-nav>.active>a, .navbar-nav ul a.at {
 		border-radius: 0;
 		color: white;
-		background-color: @theme-primary;
+		background-color: darken(@navbar-default-bg,15%);
 	}
 	.navbar-nav>.active>a:hover,
 		.navbar-nav>.active>a:focus {
 		color: white;
-		background-color: darken(@theme-primary, 10%);
+		background-color:darken(@navbar-default-bg,15%);
 	}
-	&.always-dark{
-		background-color: @navbar-default-bg !important;
-	}
-	&:not(.always-dark) {
-		@media(min-width: @sm) {
-			background:fade(@navbar-default-bg,35%);
-			/*
-			.brand-image{
-			padding: 15px 20px !important;
-			margin-top: 0px;
-			background:fade(@gray-darker,75%);
-			border-radius:6px;
 
-			img {
-			max-height: 30px;
-			max-width: 190px;
-			margin-top: -10px;
-			width:auto;
-			display:inline-block;
-			@media(max-width:768px) {
-			max-height: 35px;
-			max-width: 190px;
-			margin-top: 13px;
-			margin-left: 10px;
-		}
-		}
-		}
-			*/
-		}
-	}
 }
 
 @media(min-width: @sm) {
 	.navbar-custom {
-		background-color: @navbar-default-bg !important;
-		padding: 25px 0;
+		background-color: @navbar-default-bg;
+		padding-top: @default-spacing;
 		-webkit-transition: padding 0.3s;
 		-moz-transition: padding 0.3s;
 		transition: padding 0.3s;
 		border: none;
+		margin-bottom:0;
 		/*&.always-dark{
 			background-color: @navbar-default-bg !important;
 
@@ -326,7 +325,7 @@ img {
 			height:auto;
 		}
 		.navbar-nav>.active>a {
-			border-radius: 3px;
+			//border-radius: 3px;
 		}
 	}
 
@@ -353,8 +352,8 @@ header {
 	text-align: center;
 	color: white;
 	.intro-text {
-		padding-top: 100px;
-		padding-bottom: 50px;
+		padding-top: @default-spacing*2;
+		padding-bottom: @default-spacing;
 		text-shadow:0px 0px 4px rgba(50,50,50,0.5);
 		@media(max-width: @sm) {
 				.btn.btn-xl {
@@ -389,8 +388,8 @@ header {
 @media(min-width: @sm) {
 	header {
 		.intro-text {
-			padding-top: 300px;
-			padding-bottom: 200px;
+		padding-top: @default-spacing*4;
+			padding-bottom: @default-spacing*2;
 			.intro-lead-in {
 				.serif-font;
 				font-style: italic;
@@ -411,9 +410,9 @@ header {
 
 // Global Section Styles
 section {
-	padding: 100px 0;
+	padding: @default-spacing*2 0;
 	@media(max-width: @sm) {
-		padding: 50px 0;
+		padding: @default-spacing 0;
 	}
 }
 section, .recipe-wrap {
@@ -435,7 +434,7 @@ section, .recipe-wrap {
 
 @media(min-width: @sm) {
 	section {
-		padding: @default-spacing*4 0;
+		padding: @default-spacing*2 0;
 	}
 }
 
@@ -551,16 +550,6 @@ section#portfolio {
 	list-style: none;
 	padding: 0;
 	position: relative;
-	&:before {
-		top: 0;
-		bottom: 0;
-		position: absolute;
-		content: "";
-		width: 2px;
-		background-color: @gray-lightest;
-		left: 40px;
-		margin-left: -1.5px;
-	}
 	> li {
 		margin-bottom: 50px;
 		position: relative;
@@ -837,6 +826,7 @@ footer {
 	@media(max-width: @sm) {
 		margin-bottom: 60px;
 	}
+
 }
 
 // Social Buttons

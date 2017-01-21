@@ -1,7 +1,7 @@
 <!-- Header -->
 <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 <div class="body-container">
-	<div class="container">
+	<div class="container no-padding">
 		<div class="slick-slider-container" >
 			<div id="slick-hero"  >
 				{{ each homepage_slides as slide sort by slide.sort_order }}
@@ -55,8 +55,8 @@
 					autoplay: false,
 					arrows: true,
 					appendArrows: $('.button-anchor'),
-					prevArrow:'<i class="fa fa-angle-left fa-2x" aria-hidden="true"></i>',
-					nextArrow:'<i class="fa fa-angle-right fa-2x pull-right" style="margin-right: 30px;" aria-hidden="true"></i>',
+					prevArrow:'<i class="fa fa-chevron-left" aria-hidden="true"></i>',
+					nextArrow:'<i class="fa fa-chevron-right pull-right" style="margin-right: 30px;" aria-hidden="true"></i>',
 					fade: false,
 					infinite: true,
 					slidesToShow: 1,
@@ -103,24 +103,49 @@
 					<div class="col-lg-12">
 						<ul class="timeline">
 							{{each home_page_about_timeline as timeline}}
-							{{if {index} % 2 = 0}}
-							<li class="timeline-inverted">
-								{{else}}
-								<li>
-									{{end-if}}
+
+							<div class="row">
+								{{if {index} % 2 = 0}}
+
+								<div class="col-sm-4">
 									<div class="timeline-image">
-										<img class="img-circle img-responsive" src="{{timeline.bubble_image.getImage(400,400,crop)}}" alt="{{timeline.title}} Image">
+										<img class=" img-responsive" src="{{timeline.bubble_image.getImage(600,600,crop)}}" alt="{{timeline.title}} Image">
 									</div>
+
+								</div>
+								<div class="col-sm-8">
 									<div class="timeline-panel">
 										<div class="timeline-heading">
-											<h4>{{timeline.bubble_title}}</h4>
+											<h2>{{timeline.bubble_title}}</h2>
 											<h4 class="subheading">{{timeline.bubble_subtitle}}</h4>
 										</div>
 										<div class="timeline-body">
 											<p class="text-muted">{{timeline.bubble_blurb}}</p>
 										</div>
 									</div>
-							</li>
+								</div>
+								{{else}}
+
+								<div class="col-sm-8">
+									<div class="timeline-panel">
+										<div class="timeline-heading">
+											<h2>{{timeline.bubble_title}}</h2>
+											<h4 class="subheading">{{timeline.bubble_subtitle}}</h4>
+										</div>
+										<div class="timeline-body">
+											<p class="text-muted">{{timeline.bubble_blurb}}</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-4">
+									<div class="timeline-image">
+										<img class=" img-responsive" src="{{timeline.bubble_image.getImage(600,600,crop)}}" alt="{{timeline.title}} Image">
+									</div>
+
+								</div>
+								{{end-if}}
+							</div>
+							<hr/>
 							{{end-each}}
 
 							<li class="timeline-inverted">
