@@ -52,7 +52,9 @@
 		<script type="text/javascript">
 			$(document).ready(function(){
 				$('#slick-hero').slick({
-					autoplay: false,
+					autoplay: true,
+					autoplaySpeed: 6700,
+					speed: 300,
 					arrows: true,
 					appendArrows: $('.button-anchor'),
 					prevArrow:'<i class="fa fa-chevron-left" aria-hidden="true"></i>',
