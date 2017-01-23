@@ -1,5 +1,7 @@
 // Global Components
-
+html {
+	overflow: auto;
+}
 body {
 	overflow-x: hidden;
 	background-color: @body-bg;
@@ -156,6 +158,9 @@ img {
 	min-height:0;
 	background-color:lighten(@gray-lightest,0%);
 	.container {background:none;}
+	@media(max-width: @sm) {
+		padding: 5px 10px;
+	}
 	#request {
 		margin: 0;
 		font-size:12px;
@@ -169,7 +174,7 @@ img {
 			padding:20px 0;
 			font-size:20px;
 			transition:all ease 250ms;
-			z-index:90;
+			z-index:200;
 		}
 
 	}
@@ -196,6 +201,9 @@ img {
 			line-height:1em;
 			a {
 				color:@brand-primary;
+			}
+			@media(max-width: @sm) {
+				font-size: 16px;
 			}
 		}
 	}
@@ -593,6 +601,10 @@ section#portfolio {
 			border-radius: 100%;
 			border: 7px solid @gray-lightest;
 			text-align: center;
+			@media(max-width: @sm) {
+				left: 50%;
+				margin-left: -40px;
+			}
 			h4 {
 				font-size: 10px;
 				margin-top: 12px;
@@ -639,6 +651,9 @@ section#portfolio {
 		> p,
 			> ul {
 			margin-bottom: 0;
+			@media(max-width: @sm) {
+				margin-bottom: 15px;
+			}
 		}
 	}
 }
@@ -724,32 +739,21 @@ section#portfolio {
 }
 
 // Team Section
-
-.team-member {
-	text-align: center;
-	margin-bottom: 50px;
-	img {
-		margin: 0 auto;
-		border: 7px solid white;
+#team {
+	@media(max-width: @sm) {
+		padding-bottom: -15px;
 	}
-	h4 {
-		margin-top: 25px;
-		margin-bottom: 0;
-		text-transform: none;
-	}
-	p {
-		margin-top: 0;
+	@media(max-width: @sm) {
+		.btn {
+			margin-bottom: 15px;
+		}
 	}
 }
 
-// Clients Aside
-
-aside.clients {
-	img {
-		margin: 50px auto;
-		max-width: 80%;
-		@media (max-width: 768px){
-			max-width: 250px;
+#about {
+	@media(max-width: @sm) {
+		h3 {
+			margin-bottom: 25px;
 		}
 	}
 }

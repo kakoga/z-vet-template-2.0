@@ -109,13 +109,24 @@
 							<div class="row">
 								{{if {index} % 2 = 0}}
 
+								<div class="col-sm-8 mobile">
+									<div class="timeline-panel">
+										<div class="timeline-heading">
+											<h2>{{timeline.bubble_title}}</h2>
+											<h4 class="subheading">{{timeline.bubble_subtitle}}</h4>
+										</div>
+										<div class="timeline-body">
+											<p class="text-muted">{{timeline.bubble_blurb}}</p>
+										</div>
+									</div>
+								</div>
 								<div class="col-sm-4">
 									<div class="timeline-image">
 										<img class=" img-responsive" src="{{timeline.bubble_image.getImage(600,600,crop)}}" alt="{{timeline.title}} Image">
 									</div>
 
 								</div>
-								<div class="col-sm-8">
+								<div class="col-sm-8 desktop">
 									<div class="timeline-panel">
 										<div class="timeline-heading">
 											<h2>{{timeline.bubble_title}}</h2>

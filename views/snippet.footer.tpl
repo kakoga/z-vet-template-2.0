@@ -29,20 +29,11 @@
 <footer>
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-4 col-md-6">
+			<div class="col-lg-6 col-md-6">
 
 				<span class="copyright">&copy; {{site.date(Y)}} {{clippings.footer_text}}</span>
 			</div>
-			<div class="col-lg-4 col-md-6">
-				<ul class="list-inline social-buttons">
-					{{each social_links as social}}
-					<li class="social-{{social.font_awesome_icon}}">
-						<a href="{{social.url}}"><i class="fa fa-{{social.font_awesome_icon}}"></i></a>
-					</li>
-					{{end-each}}
-				</ul>
-			</div>
-			<div class="col-lg-4 col-md-12">
+			<div class="col-lg-6 col-md-12">
 				<ul class="list-inline quicklinks">
 					{{ each footer_links as link sort by link.sort_order }}
 					<li><a href="{{ truepath({link.link}) }}">{{ link.link_title }}</a></li>

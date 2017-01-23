@@ -6,7 +6,7 @@
 		<div class="">
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="row" >
-				<div class="col-sm-4" >
+				<div class="col-sm-4 col-xs-6" >
 					<ul class="list-inline header-social">
 						{{each social_links as social}}
 						<li class="social-{{social.font_awesome_icon}}">
@@ -15,7 +15,7 @@
 						{{end-each}}
 					</ul>
 				</div>
-				<div class="col-sm-4" >
+				<div class="col-sm-4 col-xs-6" >
 					<div class="number text-center" >
 						<h3><a href="tel:{{ clippings.phone }}" ><span class="fa fa-phone"></span> {{ clippings.phone }}</a></h3>
 
