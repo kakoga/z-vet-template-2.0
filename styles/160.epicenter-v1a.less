@@ -252,6 +252,9 @@ img {
 				}
 			}
 		}
+		@media(max-width: @sm) {
+			margin-bottom: 0;
+		}
 	}
 	.navbar-collapse {
 		border-color: fade(white, 2%);
@@ -289,7 +292,11 @@ img {
 					color: @theme-primary;
 					outline: none;
 				}
+				@media(max-width: @sm) {
+					border-left-style: hidden;
+				}
 			}
+
 			&:first-child a {
 				border-left:none;
 			}

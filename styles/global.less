@@ -90,7 +90,7 @@ a:hover {text-decoration:none;}
 	max-width:@container-large-desktop;
 	margin:0 auto;
 	background-color:@body-bg;
-	@media(max-width:@sm) {
+	@media(max-width:760px) {
 		margin-top: -21px;
 	}
 }
@@ -270,6 +270,12 @@ a:hover {text-decoration:none;}
 }
 .navbar-custom .nav li:hover, .navbar-custom .nav li:focus {
 	color: @gray-light;
+}
+
+#nav-box {
+	@media(max-width: @sm) {
+		padding-top: 15px;
+	}
 }
 
 #promotions {
