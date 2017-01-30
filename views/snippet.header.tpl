@@ -39,7 +39,7 @@
 				<div class="col-sm-12">
 					{{if {clippings.logo} }}
 					<a class="navbar-brand brand-image" href="/">
-						<img src="{{clippings.logo.getImage()}}" alt="{{clippings.site_name}} logo"/>
+						<img src="{{clippings.logo.getImage()}}" style="height: {{ clippings.logo_height }}px;" alt="{{clippings.site_name}} logo"/>
 						{{ if {clippings.below_logo_text} }}
 						<span class="below-logo hidden-sm-down" >{{ clippings.below_logo_text }}</span>
 						{{ end-if }}

@@ -9,13 +9,17 @@
 				<div class=""  >
 
 					<header  data-vide-bg="mp4: {{ slide.background_video.getMediaURL() }}{{if {slide.background_image} }}, poster: {{slide.background_image.getImage(2500)}}{{ end-if }}" data-vide-options=" loop: true, muted: true, position: 50% 50%">
-						<div class="container">
-							<div class="intro-text">
-								<div class="intro-lead-in">{{slide.title}}</div>
-								<div class="intro-heading">{{slide.second_line}}</div>
-								{{ if {slide.button_text} }}
-								<a href="{{ truepath({slide.links_to}) }}" class="page-scroll btn btn-xl">{{slide.button_text}}</a>
-								{{ end-if }}
+						<div class="cr" >
+							<div class="cc" >
+								<div class="container">
+									<div class="intro-text">
+										<div class="intro-lead-in">{{slide.title}}</div>
+										<div class="intro-heading">{{slide.second_line}}</div>
+										{{ if {slide.button_text} }}
+										<a href="{{ truepath({slide.links_to}) }}" class="page-scroll btn btn-xl">{{slide.button_text}}</a>
+										{{ end-if }}
+									</div>
+								</div>
 							</div>
 						</div>
 					</header>
@@ -24,16 +28,20 @@
 				<div class=""  >
 
 					<header style="background-image:url('{{slide.background_image.getImage(2500)}}')">
-						<div class="container">
-							<div class="intro-text">
-								<div class="intro-lead-in">{{slide.title}}</div>
-								<div class="intro-heading">{{slide.second_line}}</div>
-								{{ if {slide.button_text} }}
-								<a href="{{ truepath({slide.links_to}) }}" class="page-scroll btn btn-xl">{{slide.button_text}}</a>
-								{{ end-if }}
+						<div class="cr" >
+							<div class="cc" >
+								<div class="container">
+									<div class="intro-text">
+										<div class="intro-lead-in">{{slide.title}}</div>
+										<div class="intro-heading">{{slide.second_line}}</div>
+										{{ if {slide.button_text} }}
+										<a href="{{ truepath({slide.links_to}) }}" class="page-scroll btn btn-xl">{{slide.button_text}}</a>
+										{{ end-if }}
 
+									</div>
+
+								</div>
 							</div>
-
 						</div>
 					</header>
 				</div>
@@ -93,6 +101,7 @@
 
 
 		<!-- Timeline Section -->
+		{{ if {page.timeline_title} }}
 		<section id="about">
 			<div class="container">
 				<div class="row">
@@ -173,39 +182,45 @@
 				</div>
 			</div>
 		</section>
+		{{ end-if }}
 
 		<!-- About Section -->
-		<section id="portfolio" class="bg-light-gray" style="background-image:url('{{ page.about_section_image.getImage() }}');background-size:contain;backgound-position:left bottom;background-repeat:no-repeat;">
-			<div class="">
-				<div class="row">
-					<div class="col-lg-6 pull-left home-section-two-img">
-						&nbsp;
-					</div>
-					<div class="col-lg-6">
-						<div class="row ">
-							<div class="col-lg-12">
-								<div class="opaque-bg">
-									<div class="row">
-										<div class="col-lg-12">
-											<h2 class="section-heading pull-left home-section-two">{{page.about_section_title}}</h2>
+		{{ each about_section as abtsec sort by abtsec.sort_order }}
+		{{ if {index} % 2 == 0 }}
+		<section class="portfolio bg-light-gray">
+			{{ else if {index} % 2 == 1 }}
+			<section id="portfolio" class="bg-light-gray" style="background-image:url('{{ abtsec.about_section_image.getImage() }}');background-size:contain;backgound-position:left bottom;background-repeat:no-repeat;">
+				{{ end-if }}
+				<div class="">
+					<div class="row">
+						<div class="col-lg-6 pull-left home-section-two-img">
+							&nbsp;
+						</div>
+						<div class="col-lg-6">
+							<div class="row ">
+								<div class="col-lg-12">
+									<div class="opaque-bg">
+										<div class="row">
+											<div class="col-lg-12">
+												<h2 class="section-heading pull-left home-section-two">{{abtsec.about_section_title}}</h2>
+											</div>
 										</div>
-									</div>
-									<div class="row">
-										<div class="col-lg-12">
-											<p class="pull-left home-section-two">{{ page.about_section_copy }}</p>
-											{{ if {page.about_section_button_txt} }}
-											<p><a class="btn btn-primary" href="{{ truepath({page.about_section_btn_links_to}) }}" >{{ page.about_section_button_txt }}</a></p>
-											{{ end-if }}
+										<div class="row">
+											<div class="col-lg-12">
+												<p class="pull-left home-section-two">{{ abtsec.about_section_copy }}</p>
+												{{ if {abtsec.about_section_button_txt} }}
+												<p><a class="btn btn-primary" href="{{ truepath({abtsec.about_section_btn_links_to}) }}" >{{ abtsec.about_section_button_txt }}</a></p>
+												{{ end-if }}
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-
 						</div>
-
 					</div>
 				</div>
-			</div>
+			</section>
 		</section>
+		{{ end-each }}
 	</div>
 </div>

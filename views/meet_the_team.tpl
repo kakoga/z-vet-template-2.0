@@ -21,11 +21,23 @@
 						<hr/>
 						<div class="row">
 							{{ each employees as employee where employee.employee_category = {ec.zid} sort by employee.employee_category}}
-							{{ if {index}  % 3 == 1 && {index} != 1 }}
+							{{ if {page.number_of_cols} == 12 && {index} % 1 = 0 && {index} != 1 }}
+						</div>
+						<div class="row">
+							{{ else if {page.number_of_cols} == 6 && {index} % 2 = 1 && {index} != 1 }}
+						</div>
+						<div class="row">
+							{{ else if {page.number_of_cols} == 4 && {index} % 3 = 1 && {index} != 1 }}
+						</div>
+						<div class="row">
+							{{ else if {page.number_of_cols} == 3 && {index} % 4 = 1 && {index} != 1 }}
+						</div>
+						<div class="row">
+							{{ else if {page.number_of_cols} == 2 && {index} % 6 = 1 && {index} != 1 }}
 						</div>
 						<div class="row">
 							{{ end-if }}
-							<div class="col-md-4 borderline">
+							<div class="col-md-{{ page.number_of_cols }} borderline">
 								<img src="{{ employee.employee_photo.getImage(700,700,crop) }}" alt="{{ employee.employee_first_name}} {{ employee.employee_last_name }} photo">
 								<h4>{{ employee.employee_first_name}} {{employee.employee_last_name}}</h4>
 								<p>{{ employee.employee_bio }}</p>

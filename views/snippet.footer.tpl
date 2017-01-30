@@ -12,7 +12,7 @@
 				<br>
 				<p>{{ contact_us.first().general_info_two }}<p>
 				<p>{{ contact_us.first().phone_number_two }}<p>
-			</div>
+				</div>
 			<div class="col-lg-3 col-md-6 basic border">
 				<h4>{{ contact_us.first().hours_title }}</h4>
 				{{ each hours_of_operation as hours sort by hours.sort_order}}
@@ -21,6 +21,17 @@
 			</div>
 			<div class="col-lg-6 col-md-12 text-center">
 				{{ contact_us.first().google_map_embed }}
+				<div class="row">
+					{{ each footer_logos as fl sort by fl.sort_order }}
+					{{ if {index} % 2 == 1 && {index} != 1 }}
+				</div>
+				<div class="row">
+					{{ end-if }}
+					<div class="col-lg-6">
+						<img  class="footer-logo" src="{{ fl.footer_logo.getImage() }}" alt="{{ fl.logo_title }} logo">
+					</div>
+					{{ end-each }}
+				</div>
 			</div>
 		</div>
 	</div>
