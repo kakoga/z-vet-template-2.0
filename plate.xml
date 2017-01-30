@@ -144,15 +144,6 @@
                     <sort name="sort_order" name_friendly="Sort Order" list="1" />
                 </fields>
                 <items>
-                    <item link_title="Care and Wellness for Your Pet" path_part="">
-                        <title><![CDATA[Zesty Pet Clinic]]></title>
-                        <second_line><![CDATA[Your partner in whole pet care.]]></second_line>
-                        <background_video><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/bigstock-brother-and-sister-petting-the-88547789_1.mp4]]></background_video>
-                        <background_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></background_image>
-                        <button_text><![CDATA[Learn More]]></button_text>
-                        <links_to><![CDATA[501]]></links_to>
-                        <sort_order><![CDATA[1]]></sort_order>
-                    </item>
                     <item link_title="Special Offers" path_part="">
                         <title><![CDATA[After-Hours Emergencies?]]></title>
                         <second_line><![CDATA[Call</br>1-800-555-5555]]></second_line>
