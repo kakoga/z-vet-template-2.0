@@ -19,6 +19,7 @@
         <clippings>
             <text name="site_name" name_friendly="Site Name" required="1"><![CDATA[Zesty Pet Clinic]]></text>
             <images name="logo" name_friendly="Site Logo" limit="1" />
+            <text name="logo_height" name_friendly="Logo Height (pixels)"><![CDATA[50]]></text>
             <text name="below_logo_text" name_friendly="Below Logo Text"><![CDATA[]]></text>
             <text name="footer_text" name_friendly="Footer Text"><![CDATA[PetDesk with Zesty.io]]></text>
             <text name="phone" name_friendly="Main Phone"><![CDATA[555-555-5555]]></text>
@@ -66,6 +67,44 @@
               </item>
             </items>
           </dataset>
+          <dataset name="footer_links" name_friendly="Footer Links e.g. Terms of Use" parent_item="">
+            <fields>
+              <text name="link_title" name_friendly="Link Title" list="1" />
+              <text name="link" name_friendly="Link" list="1" />
+              <sort name="sort_order" name_friendly="Sort Order" list="1" />
+            </fields>
+            <items>
+              <item>
+                <link_title><![CDATA[Privacy Policy]]></link_title>
+                <link><![CDATA[516]]></link>
+                <sort_order><![CDATA[1]]></sort_order>
+              </item>
+              <item>
+                <link_title><![CDATA[Terms of Use]]></link_title>
+                <link><![CDATA[517]]></link>
+                <sort_order><![CDATA[2]]></sort_order>
+              </item>
+            </items>
+          </dataset>
+          <dataset name="footer_logos" name_friendly="Footer Logos" parent_item="">
+            <fields>
+              <text name="logo_title" name_friendly="Logo Title" list="1" />
+              <images name="footer_logo" name_friendly="Footer Logo" list="1" />
+              <sort name="sort_order" name_friendly="Sort Order" list="1" />
+            </fields>
+            <items>
+              <item>
+                <logo_title><![CDATA[Zesty Clinic Logo]]></logo_title>
+                <footer_logo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/zesty_footer_logo.png]]></footer_logo>
+                <sort_order><![CDATA[1]]></sort_order>
+              </item>
+              <item>
+                <logo_title><![CDATA[Golden Seal]]></logo_title>
+                <footer_logo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/gold_seal_logo.png]]></footer_logo>
+                <sort_order><![CDATA[2]]></sort_order>
+              </item>
+            </items>
+          </dataset>
 
           <!-- HOMEPAGE -->
           <templateset name="homepage" name_friendly="Homepage" view="homepage">
@@ -74,33 +113,21 @@
                 <!-- Squares Section -->
                 <images name="background_pattern" name_friendly="Background Pattern" list="1" />
                   <!-- Timeline text fields -->
-                  <text name="timeline_title" name_friendly="Timeline Title" />
+                  <text name="timeline_title" name_friendly="Timeline Title (leave blank if you do not want a timeline on your site)" />
                   <text name="timeline_subtitle" name_friendly="Timeline Subtitle" />
                   <text name="timeline_button_text" name_friendly="Timeline Button Text" />
                   <internal_link name="timeline_btn_links_to" name_friendly="Timeline Button Links To" />
-                  <!-- About section fields-->
-                  <text name="about_section_title" name_friendly="About Section Title" />
-                  <images name="about_section_image" name_friendly="About Section Image" limit="1" />
-                  <wysiwyg_advanced name="about_section_copy" name_friendly="About Section Copy" />
-                  <text name="about_section_button_txt" name_friendly="About Section Button Text" />
-                  <internal_link name="about_section_btn_links_to" name_friendly="About Section Button Links To" />
               </fields>
               <items>
                   <item link_title="Home" path_part="zesty_home">
                     <homepage_title><![CDATA[]]></homepage_title>
                     <!-- Squares Section -->
-                    <background_pattern><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/green_cup.png]]></background_pattern>
+                    <background_pattern><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/mooning.png]]></background_pattern>
                     <!-- Timeline text -->
                     <timeline_title><![CDATA[Pet Care for Every Age]]></timeline_title>
                     <timeline_subtitle><![CDATA[We offer the best care for pets of all ages]]></timeline_subtitle>
                     <timeline_button_text><![CDATA[Discover our services]]></timeline_button_text>
                     <timeline_btn_links_to><![CDATA[503]]></timeline_btn_links_to>
-                    <!-- About section fields -->
-                    <about_section_title><![CDATA[Zesty Pet Clinic]]></about_section_title>
-                    <about_section_image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/cat-trans-bg.png]]></about_section_image>
-                    <about_section_copy><![CDATA[<p>From pre-appointment to post-appointment we take care of you every step of the way. We ensure that your pet is well cared for and that you can be comfortable with the decisions that you're making because you're well-informed of all your options. We'll treat your companion with compassionate care.</p>]]></about_section_copy>
-                    <about_section_button_txt><![CDATA[Learn More]]></about_section_button_txt>
-                    <about_section_btn_links_to><![CDATA[501]]></about_section_btn_links_to>
                   </item>
               </items>
           </templateset>
@@ -117,6 +144,15 @@
                     <sort name="sort_order" name_friendly="Sort Order" list="1" />
                 </fields>
                 <items>
+                    <item link_title="Care and Wellness for Your Pet" path_part="">
+                        <title><![CDATA[Zesty Pet Clinic]]></title>
+                        <second_line><![CDATA[Your partner in whole pet care.]]></second_line>
+                        <background_video><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/bigstock-brother-and-sister-petting-the-88547789_1.mp4]]></background_video>
+                        <background_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></background_image>
+                        <button_text><![CDATA[Learn More]]></button_text>
+                        <links_to><![CDATA[501]]></links_to>
+                        <sort_order><![CDATA[1]]></sort_order>
+                    </item>
                     <item link_title="Special Offers" path_part="">
                         <title><![CDATA[After-Hours Emergencies?]]></title>
                         <second_line><![CDATA[Call</br>1-800-555-5555]]></second_line>
@@ -141,7 +177,7 @@
                     <item link_title="" path_part="">
                         <bubble_title><![CDATA[Baby]]></bubble_title>
                         <bubble_subtitle><![CDATA[Small Beginnings]]></bubble_subtitle>
-                        <bubble_image><![CDATA[https://f0fe9a183aeb6bd98bc6-d5f45728266591c39a8b67e0df08ace1.ssl.cf2.rackcdn.com/homepage-section-2.jpg]]></bubble_image>
+                        <bubble_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/timeline-kitten.jpeg]]></bubble_image>
                         <bubble_blurb><![CDATA[Give your baby animal the best with our Baby Health and Wellness Package, which includes vaccines, a wellness check, and grooming.]]></bubble_blurb>
                         <sort_order><![CDATA[1]]></sort_order>
                     </item>
@@ -163,41 +199,62 @@
             </dataset>
           <!-- Homepage squares dataset -->
           <dataset name="homepage_squares" name_friendly="Homepage Squares" parent_item="zesty_home">
-                <fields>
-                  <text name="image_title" name_friendly="Image Title" list="1" />
-                  <images name="image" name_friendly="Image" list="1" />
-                  <wysiwyg_advanced name="image_caption" name_friendly="Image Caption" list="1" />
-                  <text name="button_text" name_friendly="Button Text" list="1" />
-                  <internal_link name="links_to" name_friendly="Links To" list="1" />
-                  <sort name="sort_order" name_friendly="Sort Order" list="1" />
-                </fields>
-                <items>
-                  <item>
-                    <image_title><![CDATA[Care Packages]]></image_title>
-                    <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/homepage-square-1.jpg]]></image>
-                    <image_caption><![CDATA[<p>We offer care packages for each stage of life.</p>]]></image_caption>
+            <fields>
+              <text name="image_title" name_friendly="Image Title" list="1" />
+              <images name="image" name_friendly="Image" list="1" />
+              <wysiwyg_advanced name="image_caption" name_friendly="Image Caption" list="1" />
+              <text name="button_text" name_friendly="Button Text" list="1" />
+              <internal_link name="links_to" name_friendly="Links To" list="1" />
+              <sort name="sort_order" name_friendly="Sort Order" list="1" />
+            </fields>
+            <items>
+              <item>
+                <image_title><![CDATA[Care Packages]]></image_title>
+                <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/homepage-square-1.jpg]]></image>
+                <image_caption><![CDATA[<p>We offer care packages for each stage of life.</p>]]></image_caption>
+                <button_text><![CDATA[Learn More]]></button_text>
+                <links_to><![CDATA[501]]></links_to>
+                <sort_order><![CDATA[1]]></sort_order>
+              </item>
+              <item>
+                <image_title><![CDATA[Day Care]]></image_title>
+                <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/homepage-square-2.jpeg]]></image>
+                <image_caption></image_caption>
                     <button_text><![CDATA[Learn More]]></button_text>
                     <links_to><![CDATA[501]]></links_to>
-                    <sort_order><![CDATA[1]]></sort_order>
-                  </item>
-                  <item>
-                    <image_title><![CDATA[Day Care]]></image_title>
-                    <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/homepage-square-2.jpeg]]></image>
-                    <image_caption></image_caption>
-                        <button_text><![CDATA[Learn More]]></button_text>
-                        <links_to><![CDATA[501]]></links_to>
-                    <sort_order><![CDATA[2]]></sort_order>
-                  </item>
-                  <item>
-                    <image_title><![CDATA[Services]]></image_title>
-                    <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/homepage-square-3.jpg]]></image>
-                    <image_caption></image_caption>
-                        <button_text><![CDATA[Learn More]]></button_text>
-                        <links_to><![CDATA[501]]></links_to>
-                    <sort_order><![CDATA[3]]></sort_order>
-                  </item>
-                </items>
-              </dataset>
+                <sort_order><![CDATA[2]]></sort_order>
+              </item>
+              <item>
+                <image_title><![CDATA[Services]]></image_title>
+                <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/homepage-square-3.jpg]]></image>
+                <image_caption></image_caption>
+                    <button_text><![CDATA[Learn More]]></button_text>
+                    <links_to><![CDATA[501]]></links_to>
+                <sort_order><![CDATA[3]]></sort_order>
+              </item>
+            </items>
+          </dataset>
+          <!-- About Section - Gray Cat -->
+          <dataset name="about_section" name_friendly="About Section" parent_item="zesty_home">
+            <fields>
+              <text name="about_section_title" name_friendly="About Section Title" list="1"/>
+              <images name="about_section_image" name_friendly="About Section Image" limit="1" list="1" />
+              <wysiwyg_advanced name="about_section_copy" name_friendly="About Section Copy" />
+              <text name="about_section_button_txt" name_friendly="About Section Button Text" list="1" />
+              <internal_link name="about_section_btn_links_to" name_friendly="About Section Button Links To" list="1" />
+              <sort name="sort_order" name_friendly="Sort Order" list="1" />
+            </fields>
+            <items>
+              <item>
+                <about_section_title><![CDATA[Zesty Pet Clinic]]></about_section_title>
+                <about_section_image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/cat-trans-bg.png]]></about_section_image>
+                <about_section_copy><![CDATA[<p>From pre-appointment to post-appointment we take care of you every step of the way. We ensure that your pet is well cared for and that you can be comfortable with the decisions that you're making because you're well-informed of all your options. We'll treat your companion with compassionate care.</p>]]></about_section_copy>
+                <about_section_button_txt><![CDATA[Learn More]]></about_section_button_txt>
+                <about_section_btn_links_to><![CDATA[501]]></about_section_btn_links_to>
+                <sort_order><![CDATA[1]]></sort_order>
+              </item>
+            </items>
+          </dataset>
 
           <!-- GENERIC PAGE: PRIVACY POLICY, ToS, THANK YOU -->
           <templateset name="generic-page" name_friendly="Generic Page" view="generic_page">
@@ -216,25 +273,6 @@
               </item>
           </items>
         </templateset>
-        <dataset name="footer_links" name_friendly="Footer Links e.g. Terms of Use" parent_item="">
-          <fields>
-            <text name="link_title" name_friendly="Link Title" list="1" />
-            <text name="link" name_friendly="Link" list="1" />
-            <sort name="sort_order" name_friendly="Sort Order" list="1" />
-          </fields>
-          <items>
-            <item>
-              <link_title><![CDATA[Privacy Policy]]></link_title>
-              <link><![CDATA[516]]></link>
-              <sort_order><![CDATA[1]]></sort_order>
-            </item>
-            <item>
-              <link_title><![CDATA[Terms of Use]]></link_title>
-              <link><![CDATA[517]]></link>
-              <sort_order><![CDATA[2]]></sort_order>
-            </item>
-          </items>
-        </dataset>
         <!-- GENERIC PAGE END  -->
 
           <!-- 2. CONTACT US -->
@@ -560,7 +598,7 @@
                   <page_title><![CDATA[Patient Forms]]></page_title>
                   <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/patient-forms-main-image.jpg]]></main_image>
                   <body_text>
-                    <![CDATA[Please contact us for additional forms not found here.]]>
+                    <![CDATA[Please find most of our patient forms below.]]>
                   </body_text>
                   <download_form_note><![CDATA[Please see a list of our most common forms below. Once you find the form that you need, click the PDF icon to download.]]></download_form_note>
                   <embedded_form_instrux><![CDATA[If you're interested in Doggy Day Care, please make an appointment and then fill out the form below.]]></embedded_form_instrux>
@@ -782,6 +820,7 @@
                   <text name="page_title" name_friendly="Page Title" required="1"/>
                   <images name="main_image" name_friendly="Main Image" limit="1" />
                   <wysiwyg_advanced name="body_text" name_friendly="Body Text" />
+                  <dropdown name="number_of_cols" name_friendly="Number of Photos in a Row (if 3 is selected,  there will be 3 photos per row)" options="12:1 photo;6:2 photos;4:3 photos;3:4 photos;2:6 photos;" />
               </fields>
               <items>
                   <item link_title="Meet the Team" path_part="meet-the-team" parent="about-us">
@@ -899,7 +938,7 @@
                   <employee_last_name><![CDATA[Henson]]></employee_last_name>
                   <employee_photo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/about-us-employee-photo.png]]></employee_photo>
                   <employee_bio><![CDATA[<p>Dr. Bob has been practicing veterianary medicine for over 30 years. He brings his expertise in dogs, cats, farm animals, and exotics and a degree from Muppet Veterinary University to our humble office.</p>]]></employee_bio>
-                  <employee_category><![CDATA[591]]></employee_category>
+                  <employee_category><![CDATA[596]]></employee_category>
                   <sort_order><![CDATA[1]]></sort_order>
                 </item>
                 <item>
@@ -907,7 +946,7 @@
                   <employee_last_name><![CDATA[Oz]]></employee_last_name>
                   <employee_photo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/about-us-employee-photo.png]]></employee_photo>
                   <employee_bio><![CDATA[<p>Nurse Piggy comes to us with over 25 years of experience working in many types of animals. Her comforting bedside manner will be sure to put your pets at ease.</p>]]></employee_bio>
-                  <employee_category><![CDATA[591]]></employee_category>
+                  <employee_category><![CDATA[596]]></employee_category>
                   <sort_order><![CDATA[2]]></sort_order>
                 </item>
                 <item>
@@ -915,7 +954,7 @@
                   <employee_last_name><![CDATA[Hunt]]></employee_last_name>
                   <employee_photo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/about-us-employee-photo.png]]></employee_photo>
                   <employee_bio><![CDATA[<p>Nurse Janice comes to use with 5 years of experience. For many years she was a travelling musician, until she decided to turn towards her love of animals.</p>]]></employee_bio>
-                  <employee_category><![CDATA[591]]></employee_category>
+                  <employee_category><![CDATA[596]]></employee_category>
                   <sort_order><![CDATA[3]]></sort_order>
                 </item>
                 <item>
@@ -923,7 +962,7 @@
                   <employee_last_name><![CDATA[Eagle]]></employee_last_name>
                   <employee_photo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/about-us-employee-photo.png]]></employee_photo>
                   <employee_bio><![CDATA[<p>Receptionist Sam feels it's his duty to help others and to run a very organized office. He loves to keep our office running and our clients and their pets happy.</p>]]></employee_bio>
-                  <employee_category><![CDATA[590]]></employee_category>
+                  <employee_category><![CDATA[595]]></employee_category>
                   <sort_order><![CDATA[4]]></sort_order>
                 </item>
               </items>
