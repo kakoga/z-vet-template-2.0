@@ -167,7 +167,7 @@
 								</div>
 								{{end-if}}
 							</div>
-							<hr/>
+							(**<hr/>**)
 							{{end-each}}
 
 							<li class="timeline-inverted">

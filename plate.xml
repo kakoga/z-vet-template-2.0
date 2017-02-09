@@ -122,7 +122,7 @@
                   <item link_title="Home" path_part="zesty_home">
                     <homepage_title><![CDATA[]]></homepage_title>
                     <!-- Squares Section -->
-                    <background_pattern><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/mooning.png]]></background_pattern>
+                    <background_pattern><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/green_cup.png]]></background_pattern>
                     <!-- Timeline text -->
                     <timeline_title><![CDATA[Pet Care for Every Age]]></timeline_title>
                     <timeline_subtitle><![CDATA[We offer the best care for pets of all ages]]></timeline_subtitle>
@@ -148,7 +148,7 @@
                         <title><![CDATA[After-Hours Emergencies?]]></title>
                         <second_line><![CDATA[Call</br>1-800-555-5555]]></second_line>
                         <background_video></background_video>
-                        <background_image><![CDATA[https://8096717d1d506ed86549-26127059a655d0d59d9dd6d52a5054ae.ssl.cf2.rackcdn.com/kitten.jpeg]]></background_image>
+                        <background_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/home-hero.HyfKW2OUul.jpeg]]></background_image>
                         <button_text><![CDATA[Contact Us]]></button_text>
                         <links_to><![CDATA[521]]></links_to>
                         <sort_order><![CDATA[1]]></sort_order>
@@ -168,21 +168,21 @@
                     <item link_title="" path_part="">
                         <bubble_title><![CDATA[Baby]]></bubble_title>
                         <bubble_subtitle><![CDATA[Small Beginnings]]></bubble_subtitle>
-                        <bubble_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/timeline-kitten.jpeg]]></bubble_image>
+                        <bubble_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/timeline-baby.SJZ5WhuUdg.jpeg]]></bubble_image>
                         <bubble_blurb><![CDATA[Give your baby animal the best with our Baby Health and Wellness Package, which includes vaccines, a wellness check, and grooming.]]></bubble_blurb>
                         <sort_order><![CDATA[1]]></sort_order>
                     </item>
                     <item link_title="" path_part="">
                         <bubble_title><![CDATA[Adult]]></bubble_title>
                         <bubble_subtitle><![CDATA[Prime-of-life]]></bubble_subtitle>
-                        <bubble_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/timeline-adult.jpg]]></bubble_image>
+                        <bubble_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/timeline-adult.Bylq-3_Iux.jpeg]]></bubble_image>
                         <bubble_blurb><![CDATA[Make sure your adult stays healthy our Adult Health and Wellness Package which includes a wellness exam, vaccine boosters, a heartworm check, and more.]]></bubble_blurb>
                         <sort_order><![CDATA[2]]></sort_order>
                     </item>
                     <item link_title="" path_part="">
                         <bubble_title><![CDATA[Senior]]></bubble_title>
                         <bubble_subtitle><![CDATA[Healthy & Active in Old Age]]></bubble_subtitle>
-                        <bubble_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/timeline-senior.jpg]]></bubble_image>
+                        <bubble_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/timeline-senior.rkq-3O8de.jpg ]]></bubble_image>
                         <bubble_blurb><![CDATA[Make sure your senior has the best quality of life with our Senior Care Package. We'll help you keep your pet healthy with a comprehensive exam, blood work, x-rays and more to ensure your pets health well into old age.]]></bubble_blurb>
                         <sort_order><![CDATA[3]]></sort_order>
                     </item>
@@ -201,7 +201,7 @@
             <items>
               <item>
                 <image_title><![CDATA[Care Packages]]></image_title>
-                <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/homepage-square-1.jpg]]></image>
+                <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/squares-carepkg.ByxY-nO8ug.jpeg]]></image>
                 <image_caption><![CDATA[<p>We offer care packages for each stage of life.</p>]]></image_caption>
                 <button_text><![CDATA[Learn More]]></button_text>
                 <links_to><![CDATA[501]]></links_to>
@@ -209,7 +209,7 @@
               </item>
               <item>
                 <image_title><![CDATA[Day Care]]></image_title>
-                <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/homepage-square-2.jpeg]]></image>
+                <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/squares-daycare.S1KZ3_Lue.jpeg]]></image>
                 <image_caption></image_caption>
                     <button_text><![CDATA[Learn More]]></button_text>
                     <links_to><![CDATA[501]]></links_to>
@@ -217,7 +217,7 @@
               </item>
               <item>
                 <image_title><![CDATA[Services]]></image_title>
-                <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/homepage-square-3.jpg]]></image>
+                <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/squares-services.HytZ3_Idx.jpeg]]></image>
                 <image_caption></image_caption>
                     <button_text><![CDATA[Learn More]]></button_text>
                     <links_to><![CDATA[501]]></links_to>
@@ -238,7 +238,7 @@
             <items>
               <item>
                 <about_section_title><![CDATA[Zesty Pet Clinic]]></about_section_title>
-                <about_section_image><![CDATA[https://b303cb5a6ddab7801c2a-56060891ad29dbcef161dcd34aa106bb.ssl.cf2.rackcdn.com/cat-trans-bg.png]]></about_section_image>
+                <about_section_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/home-about-section2.png]]></about_section_image>
                 <about_section_copy><![CDATA[<p>From pre-appointment to post-appointment we take care of you every step of the way. We ensure that your pet is well cared for and that you can be comfortable with the decisions that you're making because you're well-informed of all your options. We'll treat your companion with compassionate care.</p>]]></about_section_copy>
                 <about_section_button_txt><![CDATA[Learn More]]></about_section_button_txt>
                 <about_section_btn_links_to><![CDATA[501]]></about_section_btn_links_to>
@@ -286,7 +286,7 @@
               <items>
                   <item link_title="Contact Us" path_part="contact-us" parent_item="contact-us">
                       <page_title><![CDATA[Contact Us]]></page_title>
-                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/standard-hero.jpg]]></main_image>
+                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/contact-us.BketbnOIde.jpeg]]></main_image>
                       <address_one><![CDATA[Zesty Pet Clinic]]></address_one>
                       <address_two><![CDATA[1045 Sixth Avenue]]></address_two>
                       <address_three><![CDATA[San Diego, CA 92101]]></address_three>
@@ -365,7 +365,7 @@
               <items>
                   <item link_title="Resources" path_part="resources">
                       <page_title><![CDATA[Resources]]></page_title>
-                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/standard-hero.jpg]]></main_image>
+                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/patient-resources-home.BJ7qWhOL_x.jpg]]></main_image>
                       <body_text>
                         <![CDATA[
                         <p>At Zesty Pet Clinic we are here to support you. Please see our list of resources below.
@@ -386,7 +386,7 @@
                 <items>
                   <item link_title="FAQ" path_part="faq" parent="resources">
                       <page_title><![CDATA[FAQ]]></page_title>
-                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/standard-hero.jpg]]></main_image>
+                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/resources-faq.jpeg]]></main_image>
                       <body_text>
                         <![CDATA[
                         <p>Please see a list of frequently asked questions below.</p>
@@ -405,7 +405,7 @@
                 <items>
                   <item link_title="Breeder Questions" path_part="breeder-questions" parent="resources">
                     <page_title>Breeder Questions</page_title>
-                    <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/standard-hero.jpg]]></main_image>
+                    <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/about-us-office-tour.HkZFWn_Idx.jpeg]]></main_image>
                     <body_text>
                       <![CDATA[<h5>Questions to Ask Your Potential Breeder</h5>
                       <p>When selecting a breeder it can be difficult to know what questions to ask. We've provided a list of common questions to ask your potential breeder.</p>
@@ -424,7 +424,7 @@
                 <items>
                   <item link_title="Links" path_part="links" parent="resources">
                     <page_title>Links</page_title>
-                    <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/standard-hero.jpg]]></main_image>
+                    <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/patient-resources-home.BJ7qWhOL_x.jpg]]></main_image>
                     <body_text>
                       <![CDATA[
                       <p>Here is a list of links to some of our favorite resources.</p>]]>
@@ -518,7 +518,7 @@
               <items>
                   <item link_title="Promotions" path_part="promotions">
                       <page_title><![CDATA[Promotions]]></page_title>
-                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/standard-hero.jpg]]></main_image>
+                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/promotions.Skf9Wnu8_x.jpeg]]></main_image>
                       <body_text>
                         <![CDATA[
                           <p>Check out our latest promotions to help you care for your loved one!</p>]]>
@@ -540,7 +540,7 @@
                 <item>
                   <promo_title><![CDATA[&#36;25 Off Your Visit!]]></promo_title>
                   <promo_description><![CDATA[Get &#36;25.00 off your first visit. New clients only]]></promo_description>
-                  <promo_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/promotions-first-appt.jpg]]></promo_image>
+                  <promo_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/promotions-first-visit.jpg]]></promo_image>
                   <promo_code><![CDATA[FIRSTVISIT25]]></promo_code>
                   <promo_print_coupon><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/FREEFirstExamCoupon.pdf]]></promo_print_coupon>
                   <sort_order><![CDATA[1]]></sort_order>
@@ -548,7 +548,7 @@
                 <item>
                   <promo_title><![CDATA[2 for 1 Flea Treatments]]></promo_title>
                   <promo_description><![CDATA[Purchase one topical flea treatment and one of equal or lesser value for free.]]></promo_description>
-                  <promo_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/promotions-no-fleas.png]]></promo_image>
+                  <promo_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/promotions-no-fleas.jpg]]></promo_image>
                   <promo_code><![CDATA[NOFLEAS]]></promo_code>
                   <promo_print_coupon><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/2016AppCoupon.PDF]]></promo_print_coupon>
                   <sort_order><![CDATA[2]]></sort_order>
@@ -567,7 +567,7 @@
               <items>
                   <item link_title="Patient Resources" path_part="patient-resources">
                       <page_title><![CDATA[Patient Resources]]></page_title>
-                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/standard-hero.jpg]]></main_image>
+                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/patient-resources-home.BJ7qWhOL_x.jpg]]></main_image>
                       <body_text><![CDATA[<p>We strive to provide our clients with the best service and care. For your convenience we have our most common forms available for you to download and fill out prior to your appointment. We've also included information on our payment options.</p><p>When you adopt a companion animal, whether from a shelter or a breeder, whether your new family member is a dog or cat, it will help develop good relationships if you learn some simple concepts. For example, if you introduce a puppy or kitten to your home, your new pet may not know yet about proper housetraining.</p><p>There are ways to teach your new family member where, when, and what to do that aren't punitive or threatening. Or you may own a pet that may have become ill and your veterinarian has prescribed medication. What's the best way to administer medication to an animal? If you want a happy dog or cat, it's important to provide your animal with a stimulating experience during the day, especially if they live primarily indoors. Because dogs and cats love to hunt, introducing a kong can help entertain them as well as manage their weight.</p>]]></body_text>
                   </item>
               </items>
@@ -587,7 +587,7 @@
             <items>
               <item link_title="Patient Forms" path_part="patient-forms" parent="patient-resources">
                   <page_title><![CDATA[Patient Forms]]></page_title>
-                  <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/patient-forms-main-image.jpg]]></main_image>
+                  <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/patient-resources-patient-forms.SJg5Znd8Ol.jpg]]></main_image>
                   <body_text>
                     <![CDATA[Please find most of our patient forms below.]]>
                   </body_text>
@@ -609,7 +609,7 @@
             <items>
               <item link_title="Payment Options" path_part="payment-options" parent="patient-resources">
                   <page_title><![CDATA[Payment Options]]></page_title>
-                  <main_image><![CDATA[]]></main_image>
+                  <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/patient-resources-payment-options.r1c-hd8dl.jpg]]></main_image>
                   <body_text>
                     <![CDATA[<p>We offer our clients a variety of payment options, including CareCredit and some pet health insurance plans. Please see a full list of all available options below.</p>
                       <ul>
@@ -621,7 +621,7 @@
                       </ul>
                       <h4>&nbsp;</h4>
                       <p><img title="payment-options-carecredit-logo.jpg" src="https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/payment-options-carecredit-logo.jpg" alt="" width="196" height="32" /></p>
-                      <p>We also accept CareCredit. Learn more about&nbsp;<a href="https://www.carecredit.com/" target="_blank">CareCredit</a>.</p>]]>
+                      <p>We also accept CareCredit. Learn more about&nbsp;<a href="https://www.carecredit.com/">CareCredit</a>.</p>]]>
                   </body_text>
               </item>
             </items>
@@ -668,7 +668,7 @@
               <items>
                   <item link_title="Services" path_part="services">
                       <page_title><![CDATA[Our Services]]></page_title>
-                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/standard-hero.jpg]]></main_image>
+                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/sevices-home.BygYW2_Idl.jpeg]]></main_image>
                       <body_text><![CDATA[<p>Pet Care Veterinary Hospital offers full-service veterinary care, from routine physical examinations and vaccinations to emergency and critical care. In addition, we offer unparalleled surgical, dental, digital X-ray, endoscopic, and ultrasound evaluation services. We place special emphasis on preventive medicine and individual wellness programs, such as senior care, healthy weight, and lifestyle.</p>
                       <p>We believe that it is our job to not only treat your pets when they are ill, but to educate you on how to keep your best friends happy and healthy. Our vets have more than 80 years of combined veterinary experience. They have provided treatment for thousands of pets for a variety of problems and are constantly updating their skills through continuing education classes to learn about the latest innovations and medical protocols.</p>]]></body_text>
                   </item>
@@ -685,7 +685,7 @@
               <items>
                 <item link_title="General Health" path_part="general-health" parent="services">
                   <page_title><![CDATA[General Health]]></page_title>
-                  <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/general-health-main-image.jpeg]]></main_image>
+                  <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/services-general-health.rycZnuI_l.jpeg]]></main_image>
                   <body_text><![CDATA[
                   <p>We offer general checkups 2 times a year. Keep your pet the healthiest that they can be with out biannual comprehensive exams. During your pet's checkup, you can opt for grooming services, which include bathing, haircut, nail trim, and more!</p>
                   <p>While NCVEC provides emergency and specialty care, your primary care veterinarian is your partner for wellness and preventative care. Here are some important tips on preventative care for your  pets.</p>
@@ -713,7 +713,7 @@
                 </item>
                 <item link_title="Vaccines" path_part="vaccines" parent="services">
                   <page_title><![CDATA[Vaccines]]></page_title>
-                  <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/general-health-main-image.jpeg]]></main_image>
+                  <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/services-vaccine.jpg]]]></main_image>
                   <body_text><![CDATA[<p>Pet vaccines fall into two categories: core and  non-core. Core vaccines are vaccines that are recommended for every pet. Non-core vaccines are vaccines that may be recommened based on your pet's lifestyle. For example, if your pet is boarded a lot, or spends a lot of time outdoors, you may want to consider additional vaccines for your pet.</p>
                   <p>Similar to human vaccines, animal vaccines are administered to prevent diseases from occurring in animals. Routinely vaccinating animals is often more affordable than paying for the treatment of sick animals, reduces transmission of microorganisms in the animal population, and reduces animal suffering. Pets are often given vaccines for infectious diseases such as rabies, parvovirus, distemper and hepatitis. Livestock animals, such as turkeys, chickens and cattle, are vaccinated to protect against diseases such as rotavirus, E. coli, pinkeye and brucellosis.</p>
                   <p>The proper application of vaccines to animal populations has enhanced their health and welfare, and prolonged their life expectancies. The goal of a vaccination program is to prevent or reduce disease, and thereby promote optimal patient, herd and public health. Even though some formerly common diseases have now become uncommon, vaccination is still highly recommended because these serious disease agents continue to thrive in certain environments.</p>
@@ -725,7 +725,7 @@
                 </item>
                 <item link_title="Care Packages" path_part="care-packages" parent="services">
                   <page_title><![CDATA[Care Packages]]></page_title>
-                  <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/general-health-main-image.jpeg]]></main_image>
+                  <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/services-care-pkg.HJeY-n_U_l.jpg]]></main_image>
                   <body_text><![CDATA[<p>Our pets, just like humans, will have changing medical and health needs as they age. Our care packages will help you get the most comprehensive care for your pet from baby to senior.
                     Each package covers comprehensive exams, possible vaccines or medication, nutritional consulation, heartworm test and more.</p></br>
                     <h3>Baby</h3></br> <p>Our Baby Package includes:</br> <ul><li>Comprehensive physical exam</li><li>Recommended vaccines</li></ul></p></br>
@@ -735,7 +735,7 @@
                 </item>
                 <item link_title="Dental Care" path_part="dental-care" parent="services">
                   <page_title><![CDATA[Dental Care]]></page_title>
-                  <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/general-health-main-image.jpeg]]></main_image>
+                  <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/services-dental-care.rkt-2uIdg.jpeg]]></main_image>
                   <body_text><![CDATA[<p>Dental care is an integral part of your pets health. Poor dental health can lead to other health problems, including heart problems. To help your pet be the best health possible, we offer professional cleanings, and training and tips to help your pet get used to daily tooth brushing.</p>
 
                     <p>Veterinary dentistry includes the cleaning, adjustment, filing, extraction, or repair of your pets' teeth and all other aspects of oral health care. These procedures should be performed by a veterinarian or a board-certified veterinary dentist. Subject to state or provincial regulation, veterinary technicians are allowed to perform certain dental procedures under the supervision of a veterinarian. </p>
@@ -779,7 +779,7 @@
               <items>
                   <item link_title="About Us" path_part="about-us">
                       <page_title><![CDATA[About Us]]></page_title>
-                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/standard-hero.jpg]]></main_image>
+                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/about-us-hero.ry5b3_8_e.jpg]]></main_image>
                       <body_text>
                         <![CDATA[
                         <p>At Zesty Pet Clinic we're here to support the health and wellness of your pet. We offer a wide variety of services including:</p>
@@ -816,7 +816,7 @@
               <items>
                   <item link_title="Meet the Team" path_part="meet-the-team" parent="about-us">
                       <page_title><![CDATA[Meet the Team]]></page_title>
-                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/standard-hero.jpg]]></main_image>
+                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/about-us-meet-the-team.HJFZh_LOe.jpeg]]></main_image>
                       <body_text>
                         <![CDATA[
                         <p>Our team is here to help you. Our goal is to meet your needs as it pertains to the health and well-being of their pet. Our clients' pets are members of their family, and expect the same quality healthcare as they would for any other member of their family.</br>
@@ -836,7 +836,7 @@
               <items>
                   <item link_title="Testimonials" path_part="testimonials" parent="about-us">
                       <page_title><![CDATA[Testimonials]]></page_title>
-                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/about-us-testimonials.jpeg]]></main_image>
+                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/about-us-testimonials.B1W5Z2OLdg.jpg]]></main_image>
                       <body_text>
                         <![CDATA[See what our clients are saying:]]>
                     </body_text>
@@ -854,7 +854,7 @@
               <items>
                   <item link_title="Careers" path_part="careers" parent="about-us">
                       <page_title><![CDATA[Careers]]></page_title>
-                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/standard-hero.jpg]]></main_image>
+                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/about-us-careers.ByWtZ3_U_g.jpg]]></main_image>
                       <body_text>
                         <![CDATA[<h4>Join our team!</h4>]]>
                     </body_text>
@@ -872,7 +872,7 @@
               <items>
                   <item link_title="Our Videos" path_part="our-videos" parent="about-us">
                       <page_title><![CDATA[Our Videos]]></page_title>
-                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/standard-hero.jpg]]></main_image>
+                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/about-us-our-videos.ryeqbn_Ldl.jpg]]></main_image>
                       <body_text>
                         <![CDATA[<h4>Please checkout our videos below.</h4>]]>
                     </body_text>
@@ -890,7 +890,7 @@
               <items>
                   <item link_title="Our Photos" path_part="our-photos" parent="about-us">
                       <page_title><![CDATA[Our Photos]]></page_title>
-                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/about-us-our-photos.jpeg]]></main_image>
+                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/about-us-our-photos.SJ1z3u8Ox.jpeg]]></main_image>
                       <body_text>
                         <![CDATA[<h4>Meet our pets, clients, and patients!</h4>]]>
                       </body_text>
