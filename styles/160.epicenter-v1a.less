@@ -35,7 +35,7 @@ body {
 }
 
 .text-muted {
-	color: @gray-dark;
+	color: @gray-darkest;
 }
 
 .text-primary {
@@ -210,9 +210,9 @@ img {
 	ul.header-social {
 		margin-bottom:0;
 		li a {
-		&:hover {
-			background-color: darken(@link-color, 10%);
-		}
+			&:hover {
+				background-color: darken(@link-color, 10%);
+			}
 		}
 	}
 }
@@ -279,6 +279,12 @@ img {
 				float:none;
 				display:inline-block;
 			}
+			@media (max-width: @sm) {
+				padding-bottom: 7px;
+			}
+			&.active {
+				padding-bottom: 0px;
+			}
 			a {
 				.heading-font;
 				font-weight: 400;
@@ -308,6 +314,12 @@ img {
 		color: white;
 		background-color: darken(@navbar-default-bg,15%);
 		height: 48px;
+		margin-right: -1px;
+		@media (max-width: @sm) {
+			margin-right: 0;
+			height: 35px;
+			padding-bottom: 10px;
+		}
 	}
 	.navbar-nav>.active>a:hover,
 		.navbar-nav>.active>a:focus {
@@ -315,6 +327,19 @@ img {
 		background-color:darken(@navbar-default-bg,15%);
 	}
 
+}
+
+.dropdown {
+	&:hover {
+		.dropdown-menu {
+			li {
+				a {
+					border-left: none;
+					height: 25px;
+				}
+			}
+		}
+	}
 }
 
 @media(min-width: @sm) {
@@ -327,9 +352,9 @@ img {
 		border: none;
 		margin-bottom:0;
 		/*&.always-dark{
-			background-color: @navbar-default-bg !important;
+		background-color: @navbar-default-bg !important;
 
-		}*/
+	}*/
 
 		.navbar-brand.site-name {
 			font-size: 2em;
@@ -351,13 +376,13 @@ img {
 // Navbar Change on Scroll
 
 /*@media(min-width: @sm) {
-	.navbar-custom.affix {
-		background-color: @navbar-default-bg;
-		padding: 10px 0;
-		.navbar-brand.site-name  {
-			font-size: 1.5em;
-		}
-	}
+.navbar-custom.affix {
+background-color: @navbar-default-bg;
+padding: 10px 0;
+.navbar-brand.site-name  {
+font-size: 1.5em;
+}
+}
 }*/
 
 header {
@@ -374,11 +399,11 @@ header {
 		padding-bottom: @default-spacing;
 		text-shadow:0px 0px 4px rgba(50,50,50,0.5);
 		@media(max-width: @sm) {
-				.btn.btn-xl {
-					font-size: 14px;
-					padding: 10px 20px;
-				}
+			.btn.btn-xl {
+				font-size: 14px;
+				padding: 10px 20px;
 			}
+		}
 		.intro-lead-in {
 			.serif-font;
 			font-style: italic;
@@ -407,7 +432,7 @@ header {
 	header {
 		height: 60vh;
 		.intro-text {
-		//padding-top: @default-spacing*4;
+			//padding-top: @default-spacing*4;
 			//padding-bottom: @default-spacing*2;
 			.intro-lead-in {
 				.serif-font;
@@ -606,7 +631,7 @@ section#portfolio {
 			width: 80px;
 			height: 80px;
 			position: absolute;
-			z-index: 100;
+			z-index: 15;
 			background-color: @theme-primary;
 			color: white;
 			border-radius: 100%;

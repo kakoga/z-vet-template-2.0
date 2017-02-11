@@ -713,7 +713,7 @@
                 </item>
                 <item link_title="Vaccines" path_part="vaccines" parent="services">
                   <page_title><![CDATA[Vaccines]]></page_title>
-                  <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/services-vaccine.jpg]]]></main_image>
+                  <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/services-vaccine-01.jpg]]></main_image>
                   <body_text><![CDATA[<p>Pet vaccines fall into two categories: core and  non-core. Core vaccines are vaccines that are recommended for every pet. Non-core vaccines are vaccines that may be recommened based on your pet's lifestyle. For example, if your pet is boarded a lot, or spends a lot of time outdoors, you may want to consider additional vaccines for your pet.</p>
                   <p>Similar to human vaccines, animal vaccines are administered to prevent diseases from occurring in animals. Routinely vaccinating animals is often more affordable than paying for the treatment of sick animals, reduces transmission of microorganisms in the animal population, and reduces animal suffering. Pets are often given vaccines for infectious diseases such as rabies, parvovirus, distemper and hepatitis. Livestock animals, such as turkeys, chickens and cattle, are vaccinated to protect against diseases such as rotavirus, E. coli, pinkeye and brucellosis.</p>
                   <p>The proper application of vaccines to animal populations has enhanced their health and welfare, and prolonged their life expectancies. The goal of a vaccination program is to prevent or reduce disease, and thereby promote optimal patient, herd and public health. Even though some formerly common diseases have now become uncommon, vaccination is still highly recommended because these serious disease agents continue to thrive in certain environments.</p>
@@ -929,7 +929,7 @@
                   <employee_last_name><![CDATA[Henson]]></employee_last_name>
                   <employee_photo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/about-us-employee-photo.png]]></employee_photo>
                   <employee_bio><![CDATA[<p>Dr. Bob has been practicing veterianary medicine for over 30 years. He brings his expertise in dogs, cats, farm animals, and exotics and a degree from Muppet Veterinary University to our humble office.</p>]]></employee_bio>
-                  <employee_category><![CDATA[596]]></employee_category>
+                  <employee_category><![CDATA[595]]></employee_category>
                   <sort_order><![CDATA[1]]></sort_order>
                 </item>
                 <item>
@@ -937,7 +937,7 @@
                   <employee_last_name><![CDATA[Oz]]></employee_last_name>
                   <employee_photo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/about-us-employee-photo.png]]></employee_photo>
                   <employee_bio><![CDATA[<p>Nurse Piggy comes to us with over 25 years of experience working in many types of animals. Her comforting bedside manner will be sure to put your pets at ease.</p>]]></employee_bio>
-                  <employee_category><![CDATA[596]]></employee_category>
+                  <employee_category><![CDATA[595]]></employee_category>
                   <sort_order><![CDATA[2]]></sort_order>
                 </item>
                 <item>
@@ -945,7 +945,7 @@
                   <employee_last_name><![CDATA[Hunt]]></employee_last_name>
                   <employee_photo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/about-us-employee-photo.png]]></employee_photo>
                   <employee_bio><![CDATA[<p>Nurse Janice comes to use with 5 years of experience. For many years she was a travelling musician, until she decided to turn towards her love of animals.</p>]]></employee_bio>
-                  <employee_category><![CDATA[596]]></employee_category>
+                  <employee_category><![CDATA[595]]></employee_category>
                   <sort_order><![CDATA[3]]></sort_order>
                 </item>
                 <item>
@@ -953,7 +953,7 @@
                   <employee_last_name><![CDATA[Eagle]]></employee_last_name>
                   <employee_photo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/about-us-employee-photo.png]]></employee_photo>
                   <employee_bio><![CDATA[<p>Receptionist Sam feels it's his duty to help others and to run a very organized office. He loves to keep our office running and our clients and their pets happy.</p>]]></employee_bio>
-                  <employee_category><![CDATA[595]]></employee_category>
+                  <employee_category><![CDATA[594]]></employee_category>
                   <sort_order><![CDATA[4]]></sort_order>
                 </item>
               </items>

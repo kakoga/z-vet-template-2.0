@@ -44,7 +44,7 @@
                 <sort>1</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>#33715a</value>
+                <value>#17845c</value>
             </color>
             <text name="nav-font-size" name_friendly="Navigation Font Size">
                 <category>4</category>
@@ -60,7 +60,7 @@
                 <sort>1</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>#0b243a</value>
+                <value>#135d68</value>
             </color>
             <color name="link-hover-color" name_friendly="Link Hover Color">
                 <category>3</category>
@@ -68,7 +68,7 @@
                 <sort>1</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>#35526c</value>
+                <value>#239191</value>
             </color>
             <dropdown name="link-hover-decoration" name_friendly="Link Hover Decoration">
                 <category>3</category>
@@ -197,7 +197,7 @@
                 <sort>1</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>#0b243a</value>
+                <value>#3e8181</value>
             </color>
             <color name="btn-hover-font-color" name_friendly="Button Hover Font Color">
                 <category>6</category>
@@ -213,7 +213,7 @@
                 <sort>20</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>#203d57</value>
+                <value>#005757</value>
             </color>
 
             <color name="brand-primary" name_friendly="Brand Color">
@@ -222,7 +222,7 @@
                 <sort>3</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>#0b243a</value>
+                <value>#3e8181</value>
                 <options>
                     <option description="No transition" value="0ms" />
                     <option description="50ms" value="50ms" />
@@ -238,7 +238,7 @@
                 <sort>5</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>#622b13</value>
+                <value>#f00a1d</value>
             </color>
             <color name="theme-gray-color" name_friendly="Theme Green Color">
                 <category>1</category>
@@ -246,7 +246,7 @@
                 <sort>5</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>#33715a</value>
+                <value>#17845c</value>
             </color>
 
             <image name="body-bg-image" name_friendly="Body Background Image">
@@ -321,7 +321,7 @@
                 <sort>3</sort>
                 <edit_in_content>1</edit_in_content>
                 <locked>0</locked>
-                <value>#a7684b</value>
+                <value>#df710c</value>
             </color>
 
             <text name="nav-at-font-color" name_friendly=" ">

@@ -1,8 +1,8 @@
 <div id="page-top" class="index">
 	{{include header}}
-	{{ if {page.path_part} != 'zesty_home' }}
+	(**{{ if {page.path_part} != 'zesty_home' }}**)
 	<div class="header-spacing" ></div>
-	{{ end-if }}
+	(**{{ end-if }}**)
 	{{current_view}}
 
 	{{include footer}}
@@ -32,5 +32,5 @@
 {{ @popup = 1 }}
 {{ end-if }}
 <script>
-	$('.header-spacing').css('margin-bottom', $('#mainNav').outerHeight() );
+	$('.header-spacing').css('margin-bottom', $('#nav-wrap').outerHeight() );
 </script>s
