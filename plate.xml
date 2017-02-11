@@ -122,7 +122,7 @@
                   <item link_title="Home" path_part="zesty_home">
                     <homepage_title><![CDATA[]]></homepage_title>
                     <!-- Squares Section -->
-                    <background_pattern><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/green_cup.png]]></background_pattern>
+                    <background_pattern><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/squares-bg-5.jpg]]></background_pattern>
                     <!-- Timeline text -->
                     <timeline_title><![CDATA[Pet Care for Every Age]]></timeline_title>
                     <timeline_subtitle><![CDATA[We offer the best care for pets of all ages]]></timeline_subtitle>
@@ -1058,28 +1058,28 @@
                 <item>
                   <photo_title><![CDATA[Meet KitKat!]]></photo_title>
                   <photo_category><![CDATA[clients]]></photo_category>
-                  <about_us_photo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/about-us-our-photos-kitkat.jpg]]></about_us_photo>
+                  <about_us_photo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/about-us-our-photos-kitkat.Syl0bf43dl.jpg]]></about_us_photo>
                   <photo_description><![CDATA[<p>KitKat is one of our clients. She's been coming to see for 6 months now and is growing into a healthy adult.</p>]]></photo_description>
                   <sort_order><![CDATA[1]]></sort_order>
                 </item>
                 <item>
                   <photo_title><![CDATA[Meet Mister Cheddar!]]></photo_title>
                   <photo_category><![CDATA[clients]]></photo_category>
-                  <about_us_photo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/about-us-our-photos-mister-cheddar.jpg]]></about_us_photo>
+                  <about_us_photo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/about-us-our-photos-mister-cheddar.rkA-zVhux.jpg]]></about_us_photo>
                   <photo_description><![CDATA[<p>Mister Cheddar is their newest member of the family.</p>]]></photo_description>
                   <sort_order><![CDATA[2]]></sort_order>
                 </item>
                 <item>
                   <photo_title><![CDATA[Nurse Janice Helps Out]]></photo_title>
                   <photo_category><![CDATA[clients]]></photo_category>
-                  <about_us_photo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/about-us-our-photos-nurse-helps.jpg]]></about_us_photo>
+                  <about_us_photo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/about-us-our-photos-nurse-janice.jpg]]></about_us_photo>
                   <photo_description><![CDATA[<p>Nurse Janice loves to help out her furry friends.</p>]]></photo_description>
                   <sort_order><![CDATA[3]]></sort_order>
                 </item>
                 <item>
                   <photo_title><![CDATA[Helping out Goldie]]></photo_title>
                   <photo_category><![CDATA[clients]]></photo_category>
-                  <about_us_photo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/about-us-main.jpg]]></about_us_photo>
+                  <about_us_photo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/about-us-our-photos-goldie.jpg]]></about_us_photo>
                   <photo_description><![CDATA[<p>Goldie comes in for her annual exam.</p>]]></photo_description>
                   <sort_order><![CDATA[4]]></sort_order>
                 </item>
