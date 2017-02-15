@@ -24,6 +24,7 @@
 						<p>{{ page.phone_number_one }}</p>
 						<p>{{ page.general_info_two }}</p>
 						<p>{{ page.phone_number_two }}</p>
+						<p>{{ page.general_info_three }}</p>
 					</div>
 					<div class="col-md-6">
 						<h4>{{ page.hours_title }}</h4>

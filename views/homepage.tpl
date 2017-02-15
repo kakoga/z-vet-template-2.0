@@ -37,9 +37,7 @@
 										{{ if {slide.button_text} }}
 										<a href="{{ truepath({slide.links_to}) }}" class="page-scroll btn btn-xl">{{slide.button_text}}</a>
 										{{ end-if }}
-
 									</div>
-
 								</div>
 							</div>
 						</div>

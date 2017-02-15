@@ -776,6 +776,9 @@ section#portfolio {
 
 // Team Section
 #team {
+	img {
+		border-radius: 10px;
+	}
 	@media(max-width: @sm) {
 		padding-bottom: -15px;
 	}
@@ -789,6 +792,10 @@ section#portfolio {
 #about {
 	img {
 		border: 2px solid @gray-darker;
+		margin-bottom: 100px;
+		@media(max-width: @sm) {
+			margin-bottom: 25px;
+		}
 		&.main-image  {
 			border: none;
 		}

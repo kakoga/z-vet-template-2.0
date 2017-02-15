@@ -33,4 +33,4 @@
 {{ end-if }}
 <script>
 	$('.header-spacing').css('margin-bottom', $('#nav-wrap').outerHeight() );
-</script>s
+</script>
