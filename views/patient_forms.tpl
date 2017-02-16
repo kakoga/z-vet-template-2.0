@@ -101,7 +101,7 @@
 								</div>
 								<div class="clear-fix"></div>
 								<!-- Pet Info -->
-								<h6 class="form-rows">Pet Information</h6>
+								<h6 class="form-rows" style="margin-left:15px;">Pet Information</h6>
 								<div class="form-group col-xs-4">
 									<label for="petname"> Pet's Name</label>
 									<input type="text" name="petname"  class="form-control required" id="petname" placeholder="Spot">
