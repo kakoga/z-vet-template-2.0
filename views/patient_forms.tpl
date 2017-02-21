@@ -2,7 +2,7 @@
 	<div class="body-container">
 		<div class="container">
 			<div class="body-content" >
-							<h1>{{ page.page_title }}</h1>
+				<h1>{{ page.page_title }}</h1>
 				<div class="row">
 					<div class="mobile">
 						<div class="col-md-4" >
@@ -20,7 +20,7 @@
 						</div>
 						<p class="form-rows">{{ page.download_form_note}}</p>
 
-								<br/>
+						<br/>
 						{{ if {page.zid} == {patient_forms.first().zid} }}
 						{{ each online_forms as of sort by of.sort_order }}
 						<blockquote>
@@ -101,7 +101,9 @@
 								</div>
 								<div class="clear-fix"></div>
 								<!-- Pet Info -->
-								<h6 class="form-rows" style="margin-left:15px;">Pet Information</h6>
+							</div>
+							<h6 class="form-rows" >Pet Information</h6>
+							<div class="row">
 								<div class="form-group col-xs-4">
 									<label for="petname"> Pet's Name</label>
 									<input type="text" name="petname"  class="form-control required" id="petname" placeholder="Spot">
