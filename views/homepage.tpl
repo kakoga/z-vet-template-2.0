@@ -8,7 +8,7 @@
 				{{ if {slide.background_video} }}
 				<div class=""  >
 
-					<header  data-vide-bg="mp4: {{ slide.background_video.getMediaURL() }}{{if {slide.background_image} }}, poster: {{slide.background_image.getImage(2500)}}{{ end-if }}" data-vide-options=" loop: true, muted: true, position: 50% 50%">
+					<header style="{{ if {slide.horizontal_alignment_for_mobile} }}background-position: {{ slide.horizontal_alignment_for_mobile }};{{ end-if }}" data-vide-bg="mp4: {{ slide.background_video.getMediaURL() }}{{if {slide.background_image} }}, poster: {{slide.background_image.getImage(2500)}}{{ end-if }}" data-vide-options=" loop: true, muted: true, position: 50% 50%">
 						<div class="cr" >
 							<div class="cc" >
 								<div class="container">
@@ -27,7 +27,7 @@
 				{{ else }}
 				<div class=""  >
 
-					<header style="background-image:url('{{slide.background_image.getImage(2500)}}')">
+					<header style="background-image:url('{{slide.background_image.getImage(2500)}}'); {{ if {slide.horizontal_alignment_for_mobile} }}background-position: {{ slide.horizontal_alignment_for_mobile }};{{ end-if }}">
 						<div class="cr" >
 							<div class="cc" >
 								<div class="container">
