@@ -172,7 +172,7 @@ img {
 			width:100%;
 			margin:0;
 			padding:20px 0;
-			font-size:20px;
+			font-size:20px !important;
 			transition:all ease 250ms;
 			z-index:200;
 		}
@@ -203,13 +203,16 @@ img {
 				color:@brand-primary;
 			}
 			@media(max-width: @sm) {
-				font-size: 16px;
+				font-size: 16px !important;
 			}
 		}
 	}
 	ul.header-social {
 		margin-bottom:0;
 		li a {
+			@media(max-width: @sm) {
+				font-size: 18px !important;
+			}
 			&:hover {
 				background-color: darken(@link-color, 10%);
 			}
@@ -272,7 +275,7 @@ img {
 	.nav {
 		text-align:center;
 		float:none;
-		margin-bottom: 25px;
+		margin-bottom: 15px;
 		li {
 
 			@media(min-width: @sm) {
@@ -291,8 +294,9 @@ img {
 				letter-spacing: 1px;
 				color: @navbar-default-link-color;
 				font-size: @nav-font-size;
-				margin: 0px;border-left:solid 1px darken(@navbar-default-bg,15%);
-				height: 48px;
+				margin: 0px;
+				border-left: 1px solid darken(@navbar-default-bg,15%);
+				height: 40px;
 
 				&:hover,
 					&:focus {
@@ -646,7 +650,8 @@ section#portfolio {
 				margin-top: 12px;
 				line-height: 14px;
 				padding:5px 10px;
-				a {color:#fff;}
+				a {color:#fff;
+				}
 				@media(max-width: @sm) {
 					margin-top: 9px;
 					padding: 4px 7px;
@@ -810,7 +815,7 @@ section#portfolio {
 // Contact Section
 
 section#contact {
-	background-color: @gray-base;
+	background-color: @gray;
 	background-position: center;
 	background-repeat: no-repeat;
 	.container {background:none;}

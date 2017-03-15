@@ -21,8 +21,11 @@
             <images name="logo" name_friendly="Site Logo" limit="1" />
             <text name="logo_height" name_friendly="Logo Height (pixels)"><![CDATA[50]]></text>
             <text name="below_logo_text" name_friendly="Below Logo Text"><![CDATA[]]></text>
+            <text name="social_media_icon_height" name_friendly="Social Media Icon(s) Height (pixels)"><![CDATA[16]]></text>
+            <text name="request_btn_font_size" name_friendly="Request Button Font Size (pixels)"><![CDATA[12]]></text>
             <text name="footer_text" name_friendly="Footer Text"><![CDATA[PetDesk with Zesty.io]]></text>
             <text name="phone" name_friendly="Main Phone"><![CDATA[555-555-5555]]></text>
+            <text name="telephone_number_height" name_friendly="Telephone Number Height (pixels)"><![CDATA[16]]></text>
             <text name="petdesk_ref_code" name_friendly="Petdesk Reference Code"><![CDATA[1359]]></text>
             <wysiwyg_advanced name="pop_up_content" name_friendly="Pop-up Content"><![CDATA[]]></wysiwyg_advanced>
         </clippings>

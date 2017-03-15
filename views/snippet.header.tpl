@@ -11,14 +11,14 @@
 						<ul class="list-inline header-social">
 							{{each social_links as social}}
 							<li class="social-{{social.font_awesome_icon}}">
-								<a href="{{social.url}}"><i class="fa fa-{{social.font_awesome_icon}}"></i></a>
+								<a style="font-size: {{ clippings.social_media_icon_height }}px;" href="{{social.url}}"><i class="fa fa-{{social.font_awesome_icon}}"></i></a>
 							</li>
 							{{end-each}}
 						</ul>
 					</div>
 					<div class="col-sm-4 col-xs-6" >
 						<div class="number text-center" >
-							<h3><a href="tel:{{ clippings.phone }}" ><span class="fa fa-phone"></span> {{ clippings.phone }}</a></h3>
+							<h3 style="font-size: {{ clippings.telephone_number_height }}px;"><a href="tel:{{ clippings.phone }}" ><span class="fa fa-phone"></span> {{ clippings.phone }}</a></h3>
 
 						</div>
 
@@ -26,7 +26,7 @@
 						<!-- /.navbar-collapse -->
 					</div>
 					<div class="col-sm-4" >
-						<a class="btn btn-primary pull-right" id="request" href="https://dashboard.petdesk.com/WebApptRequest/?referralCode={{ clippings.petdesk_ref_code }}"  >Request Appointment</a>
+						<a class="btn btn-primary pull-right" style="font-size: {{ clippings.request_btn_font_size }}px;" id="request" href="https://dashboard.petdesk.com/WebApptRequest/?referralCode={{ clippings.petdesk_ref_code }}"  >Request Appointment</a>
 					</div>
 				</div>
 			</div>
