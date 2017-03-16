@@ -215,7 +215,14 @@
                 <locked>0</locked>
                 <value>#005757</value>
             </color>
-
+            <color name="headings-color" name_friendly="H1 Font Color">
+                <category>1</category>
+                <description>This color will change all main headings for pages, including hero text.</description>
+                <sort>3</sort>
+                <edit_in_content>1</edit_in_content>
+                <locked>0</locked>
+                <value>#ffffff</value>
+            </color>
             <color name="brand-primary" name_friendly="Brand Color">
                 <category>1</category>
                 <description>This color is used for hairlines, borders, even color on tables, and general aesthetics</description>
