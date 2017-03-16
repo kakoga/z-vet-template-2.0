@@ -141,7 +141,7 @@
                     <text name="second_line" name_friendly="Second Line" list="1" />
                     <files name="background_video" name_friendly="Background Video" list="1" />
                     <images name="background_image" name_friendly="Background Image (Fallback Image if Video)" list="1" />
-                    <dropdown name="horizontal_alignment_for_mobile" name_friendly="Horizontal Alignment for Mobile" options="left:Left;center:Center;right:Right;" />
+                    <dropdown name="horizontal_alignment_for_mobile" name_friendly="Horizontal Alignment for Mobile" options="left:Left;center:Center;right:Right;" list="1" />
                     <text name="button_text" name_friendly="Button Text" list="1" />
                     <internal_link name="links_to" name_friendly="Links To" list="1" />
                     <sort name="sort_order" name_friendly="Sort Order" list="1" />
